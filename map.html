@@ -9,9 +9,12 @@
         body{
             overflow: hidden;
             margin: 0,auto;
+            background-color: rgb(59, 160, 230);            
         }
         #map{
+            margin-top: 250px;
             text-align: center;
+            transform: scale(1.8);
         }
 
         #jinan{
@@ -43,16 +46,24 @@
         }
 
         #map a{
-            color: lightsalmon;
+            color: cornsilk;
             text-decoration: none;
         }
         
+        .closebtn {
+            position: absolute;
+            top: 20px;
+            right: 45px;
+            font-size: 60px;
+            color: cornsilk;
+            }       
+
+        #map a:hover, .closebtn a:hover {
+            color: #ff9800;
+        }
     </style>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-    </nav>
     <main>
         <div id="map">
             <p id="china"><img src="images/china.png" alt="china map" title="china map"/></p>
@@ -62,10 +73,10 @@
             Xiamen</a></p>
             <p id="dunhuang"><a href="dunhuang/index_Dunhuang.html"><img src="images/address.png" alt="dunhuang" title="dunhuang" class="add"/>
             Dunhuang</a></p>
-            <p id="xian"><a href="xian/home_menu.html"><img src="images/address.png" alt="xian" title="xian" class="add"/>
+            <p id="xian"><a href="xian/Xian_menu.html"><img src="images/address.png" alt="xian" title="xian" class="add"/>
             Xi'an</a></p>
         </div>
-    
+        <a href="index.html" class="closebtn">&times;</a>    
     </main>
 </body>
 </html>
