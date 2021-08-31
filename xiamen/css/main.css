@@ -8,7 +8,7 @@
     position:relative; 
     width:1230px; 
     height:689px; 
-    background:url(../img/attraction_map.jpg) center 0 no-repeat;
+    background:url("../img/attraction_map.jpg") center 0 no-repeat;
 }
 
 .region a{position: absolute;  font-size: 14px; font-family: Arial; font-weight: 700; color: #fff; cursor:pointer;}
