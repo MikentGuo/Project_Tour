@@ -138,7 +138,8 @@ aside ul li {
     margin: 10px;
     padding: 10px;
     color: white;
-    width: 100px;
+    width: 55%;
+    font-size: 100%;
 }
 
 ul li a{
