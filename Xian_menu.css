@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+    
+*{box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+  
+ }
+    
+body{
+  font-size: 18px;
+  font-style: italic;
+  font-family: serif;
+  margin: 0;
+  padding: 0;
+  
+}
+.container{
+    
+    width: 1500px;
+    background-image: url("images/index-intro-bg-1.jpg") ; 
+    background-attachment: fixed;
+    margin: 0 auto;
+   
+}
+
+
+
+.top-nav ul {
+  background-color: lightgray;
+  list-style-type:none;
+  margin:-20px auto 15px 35px;
+  padding:20px;
+  padding-left: 50px;
+  font-size:17px;
+  height:60px;
+}
+.top-nav ul li {
+  float:left;
+  margin:0 2px;
+}
+.top-nav ul li a {
+  display:block;
+  padding-right: 20px;
+  text-align:center;
+  text-decoration:none;
+  color: black;
+   font-weight: bold;
+   font-size: 18px;
+}
+.next{
+  margin-left: 1300px;
+  margin-top: -20px;
+  
+
+} 
+.top-nav a:hover {
+  background-color:white;}
+  .top-nav 
+  
+  a:active{
+    color: fuchsia;
+  }
+
+
+  
+h1{
+   color: red;
+   font-family: cursive;
+   font-style: italic;  
+}
+
+
+
+.header{
+  
+color: black;
+font-weight: bold;
+}
+.video{
+  margin-left: 500px;
+ display: table;
+ border: solid lightgray 0px;
+ 
+ 
+}
+
+
+
+footer{
+  background-color: lightgrey;
+  height: 90px;
+  clear: both;
+  padding-top: 20px;
+  
+ 
+}
+footer a{
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+.icon{
+  
+  padding-top: 15px; 
+  margin-left: 1200px;
+}
+
+  
+
+.email{
+  margin-left: 600px;
+  margin-left: 100px;
+  
+}
+@media  only screen and (max-width:320px) and (max-width:1500){
+  .container {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+}

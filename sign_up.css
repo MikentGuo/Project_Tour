@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* create a wetsite for sign up a site*/
+/*Developer by Hong LIn*/
+/*Discription Date : Agust 27,2021*/
+body {font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    margin: 20px 280px 20px 280px;
+    
+}
+    
+#container{
+    background-color: white;
+    margin: 40px 40px;
+    border-radius:10px;
+    border: solid  2px rgb(248,248,248);
+    width: 600px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 10px 5px rgb(248,248,248);
+    
+    
+    
+
+}
+input[type=text],input[type="password"],input[type=email]{
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 200px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+   padding: 3px;
+   
+    }
+    
+
+.header{
+    padding-top: 5px ;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    background-color:blue;
+    color: white;
+    border-radius: 5px;
+    
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    background-color:rgb(42,138,173) ;
+    font-size: 11px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    
+    
+}
+input[type="password"]{
+    margin-left:40px ;
+}
+    
+input[type="checkbox"]{
+margin-left: 330px;}
