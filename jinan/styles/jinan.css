@@ -97,6 +97,14 @@ a > p{
         display: table-cell;
         padding: 0px 10px 10px;
     }
+    aside ul li {
+        list-style-type: none;
+        background-color: royalblue;
+        color: white;
+        width: 55%;
+        font-size: 100%;
+    }
+    
 }
 
 @media screen and (max-width:400px) {
@@ -109,6 +117,13 @@ a > p{
     .cell{
         display: table-cell;
         padding: 0px 10px 10px;
+    }
+    aside ul li {
+        list-style-type: none;
+        background-color: royalblue;
+        color: white;
+        width: 55%;
+        font-size: 100%;
     }
 
 }
