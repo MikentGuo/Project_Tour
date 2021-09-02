@@ -16,7 +16,7 @@ html, body {
 
 #map {
   width: 100%;
-  height: 100%;;
+  height: 100%;
 }
 
 #main_pic {margin:0 auto; height:340px; background:url(../images/select-tour.jpg) center top no-repeat}
@@ -30,9 +30,6 @@ html, body {
 /* HEADER */
 
 .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;  
   width: 100%;
   padding: 1em;
   background-image: linear-gradient(45deg, var(--color-1), var(--color-2));
@@ -56,25 +53,23 @@ html, body {
 }
 
 .main-nav {
-  display: block;
-  position: absolute;
-  width: 300px;
+  position: relative;
+  font-size: 1.5em;
   padding-top: 20px;
-  right: 0;
-  background-color: #fff;
-  transform: translateX(1000px);
 }
 
 .main-nav ul li {
   padding: 1em;
   list-style-type: none;
-  border-bottom: solid 1px var(--color-1); 
+  border-bottom: none;
 }
+
 .main-nav ul li:last-child {
   border-bottom: none;
 }
 .main-nav ul li a {
   color: var(--color-1);
+  color: #fff;
   text-decoration: none;
 }
 .main-nav ul li a:hover {
@@ -462,6 +457,13 @@ body.activeForm .overlay-form {
     font-size: 4em;
   }
 
+  .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+  
+  }  
+
   .main-nav {
     position: relative;
     width: auto;
@@ -522,6 +524,12 @@ body.activeForm .overlay-form {
 }
 
 @media screen and (min-width: 1280px) {
+  .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+  
+  }
   .about-container, .product-container, .product-image {
     width: 300px;
   }

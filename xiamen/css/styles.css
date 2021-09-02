@@ -58,19 +58,14 @@ html, body {
 }
 
 .main-nav {
-  display: block;
-  position: absolute;
-  width: 300px;
-  top: 110px;
-  right: 0;
-  background-color: #fff;
-  transform: translateX(1000px);
+  position: relative;
+  font-size: 1.5em;
+  padding-top: 20px;
 }
 
 .main-nav ul li {
   padding: 1em;
   list-style-type: none;
-  border-bottom: solid 1px var(--color-1); 
 }
 .main-nav ul li:last-child {
   border-bottom: none;
@@ -424,6 +419,7 @@ body.activeForm .overlay-form {
     font-size: 1.5em;
     margin-top: 0.6em;
   }
+  
   .main-nav ul li {
     display: inline;
     border: none;
