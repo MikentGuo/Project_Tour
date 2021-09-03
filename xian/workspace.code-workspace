@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\1_JS_ICA_Class_One\\HandsOnProject1-1"
+		},
+		{
+			"path": "..\\..\\1_JS_ICA_Class_One\\HandsOnProject1-2"
+		},
+		{
+			"path": "..\\..\\1_JS_ICA_Class_One\\HandsOnProject1-3"
+		},
+		{
+			"path": "..\\..\\1_JS_ICA_Class_One\\HandsOnProject1-4"
+		},
+		{
+			"path": "..\\..\\1_JS_ICA_Class_One\\HandsOnProject1-5"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HandsOnProject1-1",
+		"git.ignoreLimitWarning": true
+	}
+}

@@ -1,14 +1,16 @@
-
-@charset"utf-8";
-
+@charset "utf-8";
+/* create a wetsite for XI An City of China*/
+/*Developer by Hong LIn*/
+/*Discription Date : sep1,2021*/
     
 *{box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 0; 
+  
  }
     
 body{
-  font-size: 15px;
+  font-size: 18px;
   font-style: italic;
   font-family: serif;
   margin: 0;
@@ -29,8 +31,8 @@ body{
 .top-nav ul {
   background-color: lightgray;
   list-style-type:none;
-  margin:-20 auto 15px 35px;
-  padding:20px;
+  
+  padding-top: 20px;
   padding-left: 50px;
   font-size:17px;
   height:60px;
@@ -41,7 +43,7 @@ body{
 }
 .top-nav ul li a {
   display:block;
-  padding-right: 10px;
+  padding-right: 20px;
   text-align:center;
   text-decoration:none;
   color: black;
@@ -56,8 +58,10 @@ body{
 } 
 .top-nav a:hover {
   background-color:white;}
-  .top-nav a:active{
-    color: red;
+  .top-nav 
+  
+  a:active{
+    color: fuchsia;
   }
 
 
@@ -69,9 +73,6 @@ h1{
 }
 
 
-a:active{
-color: blueviolet;
-}
 
 .header{
   
@@ -96,9 +97,14 @@ footer{
   
  
 }
+footer a{
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
 .icon{
   
-  padding-top: 30px; 
+  padding-top: 15px; 
   margin-left: 1200px;
 }
 
@@ -109,4 +115,9 @@ footer{
   margin-left: 100px;
   
 }
-
+@media  only screen and (max-width:320px) and (max-width:1500){
+  .container {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+}

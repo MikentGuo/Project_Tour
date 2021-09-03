@@ -4,10 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Hong Lin">
+  <meta name="description" content="XI An of China Tour Guide" />
+  <meta name="keywords" content="Xian, Xian Travel " />
   <title>Xian City of China</title>
   <link rel="icon" href="images/icon4.jfif" />
   <link rel="stylesheet" href="Xian_menu.css">
+  <link rel="stylesheet" href="Sign_Up_Now.css">
   <style>
     :hover {
       background-color: rgb(228, 87, 87);
@@ -22,6 +26,7 @@
 
     .name {
       text-align: center;
+      padding: 15px;
     }
 
     .video {
@@ -41,10 +46,7 @@
       float: right;
     }
 
-    .video_box {
-      margin-top: 20px;
 
-    }
 
     .top-nav {
       background-color: lightgray;
@@ -64,65 +66,73 @@
   <div class="container" id="Top">
     <nav class="top-nav">
       <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="Best_Travl.html">Best Traval</li>
-        <li><a href="Xian_Food.html">Food</li>
+        <li><a href="Xian_menu.html">Home</a></li>
+        <li><a href="Best_Travl.html">Best Traval</a></li>
+        <li><a href="Xian_Food.html">Food</a></li>
         <li><a href="Xian_culture.html">Culture</a> </li>
-
-        <li><a class="next" href="Best_Travl.html"> <img src="images/icon5-removebg-preview.png" alt="arrow"
-              height="25px" width="25px"></a></li>
+        <li><a href="#video">video</a> </li>
+        <li><a class="next" href="Best_Travl.html"> <img src="images/icon5-removebg-preview.png" alt="arrow" height="25"
+              width="25"></a></li>
       </ul>
     </nav>
     <div>
-
-      <img class="pic1" src="images/Capture.PNG" alt="a image of xian " width="1500" height="300">
-    </div>
-
-    <div class="header">
-      <h1> XI &nbsp;AN &nbsp; &nbsp; 西 &nbsp; 安 </h1><br>
-
-      <p>Xi'an, located in central-northwest China, records the great changes of the country just like a living history
-        book.
-        Called Chang'an (meaning the eternal city) in ancient times, it is one of the birthplaces of the ancient Chinese
-        civilization in the Yellow River Basin area.
-        As the eastern terminal of the Silk Road and the site of the famous Terracotta Warriors of the Qin Dynasty, the
-        city has won a reputation all over the world. More than 3,000 years of history including over 1,100 years as the
-        capital city of ancient dynasties, have endowed the city with an amazing historical heritage.
-        Travelers marvel at the numerous historical sites and cultural relics in the city.
-      </p>
-      <P>Read more about <a id="detail" href="Xian_Hitory.html"> Detail</a>
-      </P>
-    </div>
-
-
-    <img class="pic2 " src="images/Capture9.PNG" alt=" a image of xian" width="1500" height="500">
-    <div class=" name">
-      <h1> &nbsp;CHINA</h1>
-      <h1>中 &nbsp;囯 </h1>
-    </div>
-    <div class="video_box">
-      <div class="leftbar"><img src="images/xian1.PNG" width="477" height="300" alt=""></div>
-
-      <div class="video">
-        <video width="600" height="300" mute autoplay="autoplay" controls>
-          <source src="video/001.mp4" type="video/mp4">
-          <source src="video/001.webm" type="video/webm">
-          <source src="video/001.ovg" type="video/ovg">
-        </video>
+      <div>
+        <img class="pic1" src="images/Capture.PNG" alt="a image of xian " width="1500" height="300">
       </div>
 
-      <div class="rightbar"><img src="images/xian2.PNG" alt="" width="477" height="300"></div>
-      <div class="leftbar"><img src="images/" alt=""></div>
-    </div>
-    <footer>
+      <div class="header">
+        <h1> XI &nbsp;AN &nbsp; &nbsp; 西 &nbsp; 安 </h1><br>
 
-      <div>
-        <a href="Sign_Up_now.html"><img class="email" src="images/Email.jfif" alt="" width="35px" height="35px"> Contact
+        <p>Xi'an, located in central-northwest China, records the great changes of the country just like a living
+          history
+          book.
+          Called Chang'an (meaning the eternal city) in ancient times, it is one of the birthplaces of the ancient
+          Chinese
+          civilization in the Yellow River Basin area.
+          As the eastern terminal of the Silk Road and the site of the famous Terracotta Warriors of the Qin Dynasty,
+          the
+          city has won a reputation all over the world. More than 3,000 years of history including over 1,100 years as
+          the
+          capital city of ancient dynasties, have endowed the city with an amazing historical heritage.
+          Travelers marvel at the numerous historical sites and cultural relics in the city.
+        </p>
+        <P>Read more about <a id="detail" href="Xian_Hitory.html"> Detail</a>
+        </P>
+      </div>
+
+
+      <img class="pic2 " src="images/Capture9.PNG" alt=" a image of xian" width="1500" height="500">
+      <div class=" name">
+        <h1> &nbsp;CHINA</h1>
+        <h1>中 &nbsp;囯 </h1>
+      </div>
+      <div class="video_box">
+        <div class="leftbar"><img src="images/xian1.PNG" width="477" height="300" alt=""></div>
+
+        <div class="video" id="video">
+          <video width="600" height="300" autoplay="autoplay" controls>
+            <source src="video/001.mp4" type="video/mp4">
+            <source src="video/001.webm" type="video/webm">
+            <source src="video/001.ovg" type="video/ovg">
+          </video>
+
+
+        </div>
+
+        <div class="rightbar"><img src="images/xian2.PNG" alt="" width="477" height="300"></div>
+        <div class="leftbar"><img src="images/" alt=""></div>
+      </div>
+    </div>
+    <div>
+      <footer>
+
+
+        <a href="Sign_Up_Now.html"><img class="email" src="images/Email.jfif" alt="" width="35" height="35"> Contact
           Us</a>
 
-        <a href="#Top "> <img class="icon" src="images/icon1.png" width="25px" alt=" a image of icon"></a>
-      </div>
-    </footer>
+        <a href="#Top "> <img class="icon" src="images/icon1.png" width="25" alt=" a image of icon"></a>
+      </footer>
+    </div>
 
 
   </div>
